@@ -112,9 +112,15 @@ header {
 }
 .cafe_experience_para p{
     color: #6c757d;
-    font-family: Lato,sans-serif;
+    font-family: 'Lato',sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.7;
     width: 85%;
+}
+.cafe_outdoor{
+    padding-top: 6rem;
+}
+.glass_back{
+    background-image: url(../images/19.jpg);
 }
