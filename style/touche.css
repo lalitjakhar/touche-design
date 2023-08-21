@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: #000000;
+}
+.navbar_head {
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.dropitemsnav li a {
+    font-family: 'Lato', sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar_head {
+    color: #fff;
+}
+
+.navbar-light .navbar_head:focus,
+.navbar-light .navbar_head:hover {
+    color: #f5a637;
+}
+
+.navbar-light .dropitemsnav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .dropitemsnav .nav-link:focus,
+.navbar-light .dropitemsnav .nav-link:hover {
+    color: #f5a637;
+}
+
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/touche.jpg);
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -100;
+}
+.text-xs {
+    font-family: 'Lato',sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+.text-warning:hover{
+    color: #f5a637 !important;
+}
+.cafe_details{
+    color: rgb(194, 194, 194);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.cafe_name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1;
+}
+.btn-outline-warning:hover {
+    background-color: transparent;
+    color: #f5a637;
+}
+
+.text-warning-hover:hover {
+    color: #f5a637!important;
+}
+.fa-brands{
+    color: #fff;
+}
+.fa-brands:hover{
+    color: #f5a637 !important;
+}
+.col-lg-6{
+    width: 42%;
+}
+.hr-sm{
+    width: 2rem;
+    background-color: #ff9500 !important;
+    opacity: 1;
+}
+.hr-sm:not([size]) {
+    height: 3px;
+}
+.cafe_experience_para h2{
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Playfair Display',serif;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.cafe_experience_para p{
+    color: #6c757d;
+    font-family: Lato,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    width: 85%;
+}
