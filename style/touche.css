@@ -157,3 +157,31 @@ header {
 .nav-pills .nav-link.active:hover{
     color: #000;
 }
+.menu_data h5{
+    color: #000;
+    font-family: 'Playfair Display',serif;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.menu_data p{
+    color: #6c757d;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.dollar_price{
+    font-family: 'Playfair Display',serif;
+}
+.featured_dish{
+    background: #FAFAFA;
+  }
+  
+  .dish_item {
+    width: 66%;
+  }
+  
+  .dish_item:before {
+    display: block;
+  }
+  
