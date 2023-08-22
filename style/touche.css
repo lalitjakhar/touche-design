@@ -118,9 +118,42 @@ header {
     line-height: 1.7;
     width: 85%;
 }
-.cafe_outdoor{
-    padding-top: 6rem;
-}
 .glass_back{
-    background-image: url(../images/19.jpg);
+    background-image: url(../images/glass_back.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu_details h2{
+    color: #000;
+    font-family: 'Playfair Display',serif;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.menu_details p{
+    color: #6c757d;
+    font-family: 'Lato',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.menu_options ul li button{
+    font-family: 'Lato', sans-serif;
+    font-size: .75rem;
+    font-weight: 900;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #494949;
+}
+.nav-pills .nav-link.active{
+    background: none;
+    text-decoration: underline 2px #ff9500;
+    text-underline-offset: 1rem;
+    color: #000;
+}
+.nav-pills .nav-link:hover{
+    color: #000;
+}
+.nav-pills .nav-link.active:hover{
+    color: #000;
 }
