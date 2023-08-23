@@ -870,14 +870,14 @@
       </div>
 </div>
   </section>
-  <section class=" mt-5 mb-5 pb-5 reservation">
+  <section class=" mt-5 reservation">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-6 text-center reservation_head">
           <h2 class="mb-2">
             Make online reservation
           </h2>
-          <p class="mb-6">
+          <p class="mb-5">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam illo praesentium sequi in cum, beatae maiores quae qui.
           </p>
         </div>
@@ -889,23 +889,62 @@
               <input type="hidden" name="contact_number">
               <div class="mb-3">
                 <label class="visually-hidden" for="user_name">Full name</label>
-                <input class="form-control" id="user_name" name="user_name" type="text" placeholder="Full name" required="">
+                <input class="form-control  form_fill" id="user_name" name="user_name" type="text" placeholder="Full name" required="">
               </div>
               <div class="mb-3">
                 <label class="visually-hidden" for="user_phone">Phone number</label>
-                <input class="form-control" id="user_phone" name="user_phone" type="tel" placeholder="Phone number" required="">
+                <input class="form-control  form_fill" id="user_phone" name="user_phone" type="tel" placeholder="Phone number" required="">
               </div>
               <div class="mb-3">
                 <label class="visually-hidden" for="user_email">Email address</label>
-                <input class="form-control" id="user_email" name="user_email" type="email" placeholder="Email address" required="">
+                <input class="form-control  form_fill" id="user_email" name="user_email" type="email" placeholder="Email address" required="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label class="visually-hidden" for="guests">Guests</label>
+                <select class="form-select form_fill" id="guests" name="guests" required="">
+                  <option value="1">1 person</option>
+                  <option value="2" selected="">2 persons</option>
+                  <option value="3">3 persons</option>
+                  <option value="4">4 persons</option>
+                  <option value="5">5 persons</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label class="visually-hidden" for="date">Date</label>
+                <input class="form-control form_fill" id="date" name="date" type="date" value="2021-02-12" required="">
+              </div>
+              <div class="mb-3">
+                <label class="visually-hidden" for="time">Time</label>
+                <input class="form-control form_fill" id="time" name="time" type="time" value="18:00" required="">
               </div>
             </div>
             <div class="col text-center">
-              <button class="btn btn-outline-warning text-black text-warning-hover" type="submit">
+              <button class="btn reserve_button text-black text-warning-hover" type="submit">
                 Reserve a table
               </button>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 border-bottom">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 reservation_head text-center">
+          <h2 class="mb-2">
+            What clients say about us
+          </h2>
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          
         </div>
       </div>
     </div>
