@@ -67,6 +67,14 @@ header {
 .text-warning:hover{
     color: #f5a637 !important;
 }
+.btn-outline-warning:hover {
+    background-color: transparent;
+    color: #f5a637;
+}
+
+.text-warning-hover:hover {
+    color: #f5a637!important;
+}
 .cafe_details{
     color: rgb(194, 194, 194);
     font-family: 'Lato', sans-serif;
@@ -76,14 +84,6 @@ header {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     line-height: 1;
-}
-.btn-outline-warning:hover {
-    background-color: transparent;
-    color: #f5a637;
-}
-
-.text-warning-hover:hover {
-    color: #f5a637!important;
 }
 .fa-brands{
     color: #fff;
@@ -219,4 +219,3 @@ header {
     font-weight: 400;
     line-height: 1.7;
 }
-  
