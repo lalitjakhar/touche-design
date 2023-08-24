@@ -64,8 +64,8 @@ header.reservation-page {
 header.gallery-page {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/gallerypage.jpg);
 }
-header .contact-page {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/contactpage.jpg) no-repeat center center/cover;
+header .contact-page{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/contactpage.jpg);
 }
 header{
     background-size: cover;
