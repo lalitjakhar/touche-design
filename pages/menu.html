@@ -2,138 +2,940 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="/style/touche.css">
-  <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
-  <title>Touche</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/style/touche.css">
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
+    <title>Touche</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-togglable">
-    <div class="container">
-      <a class="navbar-brand navbar_head d-lg-none" href="#">Touché</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav dropitemsnav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./reservation.html">Reservation</a>
-          </li>
-        </ul>
-        <a class="navbar-brand navbar_head d-none d-lg-flex mx-lg-auto" href="touche.html">Touché</a>
-        <ul class="navbar-nav dropitemsnav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="./news.html">News &amp; Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <header class="menu-page">
-    <div class="d-flex justify-content-center align-items-center min-vh-100">
-        <h2>Our Menu</h2>
-    </div>
-  </header>
-  <footer class="py-5 bg-black">
-    <div class="container px-5 footer_content">
-      <div class="row gx-5">
-        <div class="col-sm-4">
-          <h5 class="text-xs text-warning">
-            About Us
-          </h5>
-          <p class="mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolorum, sint corporis nostrum, possimus
-            unde eos vitae eius quasi saepe.
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <h5 class="text-xs text-warning">
-            Contact info
-          </h5>
-          <div class="contact-item d-flex align-items-baseline gap-3">
-            <i class="fa-solid fa-location-dot" style="color: #6c757d;"></i>
-            <p>
-              1234 Altschul, Los Angeles, CA 10027-0000
-            </p>
-          </div>
-          <div class="contact-item d-flex align-items-baseline gap-3">
-            <i class="fa-solid fa-phone" style="color: #6c757d;"></i>
-            <p>
-              +1 987 654 3210
-            </p>
-          </div>
-          <div class="contact-item d-flex align-items-baseline gap-3 mb-5">
-            <i class="fa-regular fa-envelope" style="color: #6c757d;"></i>
-            <a class="text-warning" href="mailto:admin@domain.com">admin@domain.com</a>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <h5 class="text-xs text-warning">
-            Opening hours
-          </h5>
-          <div class="mb-3">
-            <div class="row day_section">
-              <h6>
-                Monday - Thursday
-              </h6>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-togglable">
+        <div class="container">
+            <a class="navbar-brand navbar_head d-lg-none" href="#">Touché</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav dropitemsnav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./reservation.html">Reservation</a>
+                    </li>
+                </ul>
+                <a class="navbar-brand navbar_head d-none d-lg-flex mx-lg-auto" href="touche.html">Touché</a>
+                <ul class="navbar-nav dropitemsnav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./news.html">News &amp; Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="row time_section">
-              <h6>
-                10:00 Am - 11:00 Am
-              </h6>
+        </div>
+    </nav>
+    <header class="menu-page">
+        <div class="d-flex justify-content-center align-items-center min-vh-75">
+            <h2 class="menu_head">Our Menu</h2>
+        </div>
+    </header>
+    <section class=" mt-5 pt-5 mb-5 pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 text-center menu_details">
+                    <h2 class="mb-2">
+                        Browse By Categories
+                    </h2>
+                    <p class="mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Ratione numquam eos perferendis itaque hic unde, ad, laudantium minima.
+                    </p>
+                </div>
+            </div>
+            <div class="menu_options">
+                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Menu</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Lunch</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Dinner</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-about-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about"
+                            aria-selected="false">Drinks</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <div class="row menu_data">
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/26.jpg" alt="ipsum">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $15
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/27.jpg" alt="ante">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce id ante ut arcu</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $23
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/28.jpg" alt="sed">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $16
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/29.jpg" alt="dolor">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $15
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/30.jpg" alt="ante ut">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce id ante ut arcu</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $23
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/31.jpg" alt="Fusce sed">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $16
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row menu_data">
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/27.jpg" alt="ante">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce id ante ut arcu</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $23
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/26.jpg" alt="ipsum">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $15
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/29.jpg" alt="dolor">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $15
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/28.jpg" alt="sed">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $16
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/31.jpg" alt="Fusce sed">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $16
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/30.jpg" alt="ante ut">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce id ante ut arcu</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $23
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="row menu_data">
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/29.jpg" alt="dolor">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $15
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/27.jpg" alt="ante">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce id ante ut arcu</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $23
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/28.jpg" alt="sed">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $16
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/26.jpg" alt="ipsum">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $15
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/30.jpg" alt="ante ut">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce id ante ut arcu</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $23
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/31.jpg" alt="Fusce sed">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $16
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab">
+                        <div class="row menu_data">
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/26.jpg" alt="ipsum">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $15
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/29.jpg" alt="dolor">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $15
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/30.jpg" alt="ante ut">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce id ante ut arcu</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $23
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/27.jpg" alt="ante">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce id ante ut arcu</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $23
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/28.jpg" alt="sed">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $16
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="py-3 border-bottom">
+                                    <div class="row">
+                                        <div class="col-3 align-self-center">
+                                            <div class="ratio ratio-1x1">
+                                                <img class="object-fit-cover" src="../images/31.jpg" alt="Fusce sed">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+                                            <p class="mb-0">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
+                                                obcaecati! Sapiente laudantium.
+                                            </p>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="fs-4 font-serif dollar_price text-center text-black">
+                                                $16
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" mt-5 pt-5 mb-5 pb-5 overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 text-center menu_details">
+                    <h2 class="mb-2">
+                        Our <em>featured</em> dishes
+                    </h2>
+                    <p class="mb-5">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam aliquam id sint accusamus eius
+                        voluptatum
+                        explicabo quae similique, quas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel featured_dish"
+            data-flickity='{ "freeScroll": true, "wrapAround": false, "pageDots":false }'>
+            <div class="carousel-cell w-100 dish_item">
+                <div class="card border-0 dish_card">
+                    <img class="card-img-top" src="../images/26.jpg" alt="dolor">
+                    <div class="card-body">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h5 class="mb-0">Lorem ipsum dolor sit amet consectetur</h5>
+                            </div>
+                            <div class="col-auto">
+                                <span class="fs-4 font-serif text-black">$15</span>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            In perspiciatis nisi dicta, aperiam magnam eaque laborum iste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell w-100 dish_item">
+                <div class="card border-0 dish_card">
+                    <img class="card-img-top" src="../images/27.jpg" alt="amet">
+                    <div class="card-body">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h5 class="mb-0">Lorem ipsum dolor sit amet consectetur</h5>
+                            </div>
+                            <div class="col-auto">
+                                <span class="fs-4 font-serif text-black">$18</span>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            In perspiciatis nisi dicta, aperiam magnam eaque laborum iste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell w-100 dish_item">
+                <div class="card border-0 dish_card">
+                    <img class="card-img-top" src="../images/28.jpg" alt="ipsum">
+                    <div class="card-body">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h5 class="mb-0">Lorem ipsum dolor sit amet consectetur</h5>
+                            </div>
+                            <div class="col-auto">
+                                <span class="fs-4 font-serif text-black">$23</span>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            In perspiciatis nisi dicta, aperiam magnam eaque laborum iste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell w-100 dish_item">
+                <div class="card border-0 dish_card">
+                    <img class="card-img-top" src="../images/29.jpg" alt="sitipsum">
+                    <div class="card-body">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h5 class="mb-0">Lorem ipsum dolor sit amet consectetur</h5>
+                            </div>
+                            <div class="col-auto">
+                                <span class="fs-4 font-serif text-black">$32</span>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            In perspiciatis nisi dicta, aperiam magnam eaque laborum iste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell w-100 dish_item">
+                <div class="card border-0 dish_card">
+                    <img class="card-img-top" src="../images/30.jpg" alt="ametsit">
+                    <div class="card-body">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h5 class="mb-0">Lorem ipsum dolor sit amet consectetur</h5>
+                            </div>
+                            <div class="col-auto">
+                                <span class="fs-4 font-serif text-black">$15</span>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            In perspiciatis nisi dicta, aperiam magnam eaque laborum iste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell  w-100 dish_item">
+                <div class="card border-0 dish_card">
+                    <img class="card-img-top" src="../images/31.jpg" alt="dolorsit">
+                    <div class="card-body">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h5 class="mb-0">Lorem ipsum dolor sit amet consectetur</h5>
+                            </div>
+                            <div class="col-auto">
+                                <span class="fs-4 font-serif text-black">$42</span>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            In perspiciatis nisi dicta, aperiam magnam eaque laborum iste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" mt-5 reservation">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 text-center reservation_head">
+              <h2 class="mb-2">
+                Make online reservation
+              </h2>
+              <p class="mb-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam illo praesentium sequi in cum, beatae
+                maiores quae qui.
+              </p>
             </div>
           </div>
-          <div class="mb-5">
-            <div class="row day_section">
-              <h6>
-                Friday - Sunday
-              </h6>
-            </div>
-            <div class="row time_section">
-              <h6>
-                12:00 Am - 03:00 Am
-              </h6>
+          <div class="row justify-content-lg-center">
+            <div class="col-lg-8">
+              <div class="row gx-3">
+                <div class="col-md-6">
+                  <input type="hidden" name="contact_number">
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="user_name">Full name</label>
+                    <input class="form-control  form_fill" id="user_name" name="user_name" type="text"
+                      placeholder="Full name" required="">
+                  </div>
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="user_phone">Phone number</label>
+                    <input class="form-control  form_fill" id="user_phone" name="user_phone" type="tel"
+                      placeholder="Phone number" required="">
+                  </div>
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="user_email">Email address</label>
+                    <input class="form-control  form_fill" id="user_email" name="user_email" type="email"
+                      placeholder="Email address" required="">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="guests">Guests</label>
+                    <select class="form-select form_fill" id="guests" name="guests" required="">
+                      <option value="1">1 person</option>
+                      <option value="2" selected="">2 persons</option>
+                      <option value="3">3 persons</option>
+                      <option value="4">4 persons</option>
+                      <option value="5">5 persons</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="date">Date</label>
+                    <input class="form-control form_fill" id="date" name="date" type="date" value="2021-02-12" required="">
+                  </div>
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="time">Time</label>
+                    <input class="form-control form_fill" id="time" name="time" type="time" value="18:00" required="">
+                  </div>
+                </div>
+                <div class="col text-center">
+                  <button class="btn reserve_button text-black text-warning-hover" type="submit">
+                    Reserve a table
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="d-flex align-items-inherit">
-            <hr class="hr-sm me-3 copyright_line">
-            <p>© 2021 Touché. All rights reserved.</p>
-          </div>
+      </section>
+    <footer class="py-5 bg-black">
+        <div class="container px-5 footer_content">
+            <div class="row gx-5">
+                <div class="col-sm-4">
+                    <h5 class="text-xs text-warning">
+                        About Us
+                    </h5>
+                    <p class="mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolorum, sint corporis
+                        nostrum, possimus
+                        unde eos vitae eius quasi saepe.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="text-xs text-warning">
+                        Contact info
+                    </h5>
+                    <div class="contact-item d-flex align-items-baseline gap-3">
+                        <i class="fa-solid fa-location-dot" style="color: #6c757d;"></i>
+                        <p>
+                            1234 Altschul, Los Angeles, CA 10027-0000
+                        </p>
+                    </div>
+                    <div class="contact-item d-flex align-items-baseline gap-3">
+                        <i class="fa-solid fa-phone" style="color: #6c757d;"></i>
+                        <p>
+                            +1 987 654 3210
+                        </p>
+                    </div>
+                    <div class="contact-item d-flex align-items-baseline gap-3 mb-5">
+                        <i class="fa-regular fa-envelope" style="color: #6c757d;"></i>
+                        <a class="text-warning" href="mailto:admin@domain.com">admin@domain.com</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="text-xs text-warning">
+                        Opening hours
+                    </h5>
+                    <div class="mb-3">
+                        <div class="row day_section">
+                            <h6>
+                                Monday - Thursday
+                            </h6>
+                        </div>
+                        <div class="row time_section">
+                            <h6>
+                                10:00 Am - 11:00 Am
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <div class="row day_section">
+                            <h6>
+                                Friday - Sunday
+                            </h6>
+                        </div>
+                        <div class="row time_section">
+                            <h6>
+                                12:00 Am - 03:00 Am
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex align-items-inherit">
+                        <hr class="hr-sm me-3 copyright_line">
+                        <p>© 2021 Touché. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+    </footer>
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
