@@ -103,13 +103,9 @@ header {
     color: #f5a637 !important;
 }
 
-.col-lg-6 {
-    width: 42%;
-}
-
 .hr-sm {
     width: 2rem;
-    background-color: #ff9500 !important;
+    background-color: #f5a637 !important;
     opacity: 1;
 }
 
@@ -168,7 +164,7 @@ header {
 
 .nav-pills .nav-link.active {
     background: none;
-    text-decoration: underline 2px #ff9500;
+    text-decoration: underline 2px #f5a637;
     text-underline-offset: 1rem;
     color: #000;
 }
@@ -205,7 +201,7 @@ header {
 }
 
 .dish_item {
-    width: 20%;
+    max-width: 320px;
 }
 
 .dish_item:before {
@@ -266,10 +262,13 @@ header {
 .form_fill:focus {
     color: #212529;
     background-color: #fff;
-    border-color: #ffc107;
-    box-shadow: 0 0 0 0.06rem #ffc107;
+    border-color: #f5a637;
+    box-shadow: 0 0 0 0.06rem #f5a637;
 }
-
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.01rem #f5a637;
+}
 .reserve_button {
     background-color: transparent;
     border-radius: 0;
@@ -361,4 +360,17 @@ header {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.7;
+}
+.newsletter_box{
+    padding: 1.1rem;
+    border-radius: 0;
+    border-style: none;
+    outline: 0;
+}
+
+.newsletter_box:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #f5a637;
+    box-shadow: 0 0 0 0.06rem #f5a637;
 }
