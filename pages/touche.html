@@ -28,31 +28,31 @@
       <div class="navbar-collapse collapse" id="navbarNavDropdown">
         <ul class="navbar-nav dropitemsnav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">About Us</a>
+            <a class="nav-link" aria-current="page" href="./about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
+            <a class="nav-link" href="./menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Reservation</a>
+            <a class="nav-link" href="./reservation.html">Reservation</a>
           </li>
         </ul>
         <a class="navbar-brand navbar_head d-none d-lg-flex mx-lg-auto" href="touche.html">Touché</a>
         <ul class="navbar-nav dropitemsnav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">News &amp; Events</a>
+            <a class="nav-link" aria-current="page" href="./news.html">News &amp; Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="./gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <header>
+  <header class="homepage">
     <div class="d-flex flex-column justify-content-center align-items-center min-vh-100">
       <div class="container my-auto">
         <div class="row justify-content-center">
@@ -110,7 +110,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-2">
-          <hr class="hr-sm">
+          <hr class="hr-sm hr_line">
           <p class="fs-lg lh-lg text-black mb-5 mb-md-0">
             Take a coffee break or enjoy a meal.
           </p>
@@ -135,7 +135,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-2 order-md-2 align-self-end">
-          <hr class="hr-sm bg-primary">
+          <hr class="hr-sm hr_line bg-primary">
           <p class="fs-lg lh-lg text-black mb-5 mb-md-0">
             Great variety of foods you will enjoy.
           </p>
@@ -160,7 +160,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 pt-5">
-            <hr class="hr-sm">
+            <hr class="hr-sm hr_line">
             <p class="fs-lg lh-lg text-white mb-0">
               Enjoy our specialty coffees and award winning doughnuts in a friendly atmosphere.
             </p>
@@ -1005,7 +1005,7 @@
   <section class=" mt-5 py-5">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-8 col-lg-6 text-center">
+        <div class="col-12 col-md-8 col-lg-6 event_head text-center">
           <h2 class="mb-2">
             Upcoming events
           </h2>
@@ -1099,9 +1099,107 @@
       </div>
     </div>
   </section>
-  <footer class="py-5 bg-black">
-    <div class="container px-4">
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 reservation_head text-center">
+          <h2 class="mb-2">
+            Our Gallery
+          </h2>
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img src="../images/1st.jpg" class="w-100 mb-4" alt="1st pic"/>
+          <img src="../images/2nd.jpg" class="w-100 mb-4" alt="2nd pic"/>
+          <img src="../images/3rd.jpg" class="w-100 mb-4" alt="3rd pic"/>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img src="../images/4th.jpg" class="w-100 mb-4" alt="4th pic"/>
+          <img src="../images/5th.jpg" class="w-100 mb-4" alt="5th pic" />
+        </div>
 
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img src="../images/6th.jpg" class="w-100 mb-4" alt="6th pic"/>
+          <img src="../images/7th.jpg" class="w-100 mb-4" alt="7th pic"/>
+          <img src="../images/8th.jpg" class="w-100 mb-4" alt="8th pic"/>
+        </div>
+      </div>
+  </section>
+  <footer class="py-5 bg-black">
+    <div class="container px-5 footer_content">
+      <div class="row gx-5">
+        <div class="col-sm-4">
+          <h5 class="text-xs text-warning">
+            About Us
+          </h5>
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolorum, sint corporis nostrum, possimus
+            unde eos vitae eius quasi saepe.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="text-xs text-warning">
+            Contact info
+          </h5>
+          <div class="contact-item d-flex align-items-baseline gap-3">
+            <i class="fa-solid fa-location-dot" style="color: #6c757d;"></i>
+            <p>
+              1234 Altschul, Los Angeles, CA 10027-0000
+            </p>
+          </div>
+          <div class="contact-item d-flex align-items-baseline gap-3">
+            <i class="fa-solid fa-phone" style="color: #6c757d;"></i>
+            <p>
+              +1 987 654 3210
+            </p>
+          </div>
+          <div class="contact-item d-flex align-items-baseline gap-3 mb-5">
+            <i class="fa-regular fa-envelope" style="color: #6c757d;"></i>
+            <a class="text-warning" href="mailto:admin@domain.com">admin@domain.com</a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="text-xs text-warning">
+            Opening hours
+          </h5>
+          <div class="mb-3">
+            <div class="row day_section">
+              <h6>
+                Monday - Thursday
+              </h6>
+            </div>
+            <div class="row time_section">
+              <h6>
+                10:00 Am - 11:00 Am
+              </h6>
+            </div>
+          </div>
+          <div class="mb-5">
+            <div class="row day_section">
+              <h6>
+                Friday - Sunday
+              </h6>
+            </div>
+            <div class="row time_section">
+              <h6>
+                12:00 Am - 03:00 Am
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex align-items-inherit">
+            <hr class="hr-sm me-3 copyright_line">
+            <p>© 2021 Touché. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
   <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
