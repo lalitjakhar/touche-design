@@ -486,6 +486,11 @@ article{
     text-transform: uppercase;
     color: #6c757d;
 }
+
+.location_item{
+    font-family: 'Lato', sans-serif;
+    color: #6c757d;
+}
 .day_section{
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
