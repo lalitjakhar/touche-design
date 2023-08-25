@@ -8,7 +8,7 @@
 }
 
 .navbar_head {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-decoration: none;
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -25,7 +25,7 @@
 
 .dropitemsnav li a {
     font-family: 'Lato', sans-serif;
-    font-size: .75rem;
+    font-size: .65rem;
     font-weight: 700;
     letter-spacing: .05em;
     text-transform: uppercase;
@@ -56,7 +56,7 @@ header.menu-page {
     background: linear-gradient(rgb(0 0 0 / 70%), rgb(30 30 30 / 70%)), url(../images/menupage.jpg) no-repeat center center/cover;
 }
 header.about-page {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/aboutpage.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/aboutpage.jpg);
 }
 header.reservation-page {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/reservationpage.jpg);
@@ -78,6 +78,9 @@ header{
 }
 .min-vh-75{
     min-height: 75vh;
+}
+.clip-top-start {
+    clip-path: polygon(5% 0,100% 0,100% 100%,0 100%);
 }
 .menu_head{
     color: #ffffff;
@@ -106,7 +109,18 @@ header{
 .text-warning-hover:hover {
     color: #f5a637 !important;
 }
-
+.about_hide{
+    font-family: 'Lato',sans-serif;
+    font-size: 1.49rem;
+    font-weight: 400;
+}
+.about_hide2{
+    color: #6c757d;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.21rem;
+    font-weight: 100;
+    line-height: 1.7;
+}
 .cafe_details {
     color: rgb(194, 194, 194);
     font-family: 'Lato', sans-serif;
