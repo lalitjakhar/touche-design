@@ -53,16 +53,16 @@ header.homepage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/touche.jpg);
 }
 header.menu-page {
-    background: linear-gradient(rgb(0 0 0 / 70%), rgb(30 30 30 / 70%)), url(../images/menupage.jpg) no-repeat center center/cover;
+    background-image: linear-gradient(rgb(0 0 0 / 70%), rgb(30 30 30 / 70%)), url(../images/menupage.jpg);
 }
 header.about-page {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/aboutpage.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/aboutpage.jpg);
 }
 header.reservation-page {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/reservationpage.jpg);
 }
 header.gallery-page {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/gallerypage.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/gallerypage.jpg) ;
 }
 .contact-page {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/contactpage.jpg);
@@ -110,6 +110,11 @@ article{
     font-weight: 400;
     line-height: 1.7;
 
+}
+.gallery_carousel h5{
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: 'Lato',sans-serif;
 }
 .text-xs {
     font-family: 'Lato', sans-serif;
